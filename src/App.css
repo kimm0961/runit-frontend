@@ -1,0 +1,89 @@
+body {
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+.content,
+footer {
+  width: 100vw;
+  
+}
+
+header {
+  border-bottom: 2px solid gray;
+}
+
+.content {
+  display: flex;
+}
+
+.left {
+  width: 75vw;
+  padding: 20px;
+}
+
+.right {
+  width: 25vw;
+  padding: 20px;
+border-left: 2px solid gray;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 10px; 
+}
+
+.sponsorlogo {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.box {
+  background: #EEE;
+  border-radius: 3px;
+  border: 1px solid silver;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box * {
+  margin-bottom: 10px;
+  margin-right: 10px; 
+}
+
+/* Tilfældig sponsor */
+
+.alm {
+  background-color:lightblue;
+}
+.gold {
+  background-color: gold;
+}
+.silver {
+  background-color: silver;
+}
+
+.countdown {
+  max-width: auto;
+  overflow: auto;
+  color: white;
+  font-weight: bold;
+  background-color: #CB4047;
+  padding: 10px;
+}
